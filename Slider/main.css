@@ -1,0 +1,8 @@
+.fas{
+    cursor: pointer;
+}
+img{
+    height: 350px;
+    object-fit: cover;
+    width: auto;
+}

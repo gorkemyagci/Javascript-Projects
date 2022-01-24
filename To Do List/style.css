@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(184, 196, 184);
+}
+ul{
+    padding: 15px;
+    border-radius: 6px;
+}
+ul li{
+    margin-bottom: 15px;
+    background: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.close{
+    padding-right: 10px;
+    float: right;
+}

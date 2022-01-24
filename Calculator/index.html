@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="main">
+        <table>
+            <tr>
+              <td id="screen" class="btn btn--first" colspan="5">0</td>
+            </tr>
+            <tr>
+              <td class="btn" id="btnNumber">7</td>
+              <td class="btn" id="btnNumber">8</td>
+              <td class="btn" id="btnNumber">9</td>
+              <td class="btn" id="btnOpt">/</td>
+              <td class="btn" id="btnOpt" id="clear" onclick="remove()">CE</td>
+            </tr>
+            <tr>
+              <td class="btn" id="btnNumber">4</td>
+              <td class="btn" id="btnNumber">5</td>
+              <td class="btn" id="btnNumber">6</td>
+              <td class="btn" id="btnOpt">*</td>
+              <td class="btn" id="btnOpt">C</td>
+            </tr>
+            <tr>
+              <td class="btn" id="btnNumber">1</td>
+              <td class="btn" id="btnNumber">2</td>
+              <td class="btn" id="btnNumber">3</td>
+              <td class="btn" id="btnOpt">-</td>
+              <td class="btn" id="btnOpt" rowspan="2">=</td>
+            </tr>
+            <tr>
+              <td class="btn" id="btnNumber" colspan="2">0</td>
+              <td class="btn" id="btnOpt">.</td>
+              <td class="btn" id="btnOpt">+</td>
+            </tr>
+          </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
